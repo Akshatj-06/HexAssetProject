@@ -1,0 +1,85 @@
+<div class="row">
+    <div class="col-8">
+        <div class="card">
+            <div class="card-header bg-success">
+                <h5>Audit List</h5>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    @for (item of auditRequestList; track $index) {
+                        <div class="col-4 pt-3 pd-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Audit Id: {{item.auditId}}</h5>
+                                  <ul>
+                                    <li class="card-text">User Id: {{item.userId}}</li>
+                                    <li class="card-text">Allocation Id: {{item.allocationId}}</li>
+                                    <li class="card-text">Item: {{item.item}}</li>
+                                    <li class="card-text">Audit Status: {{item.auditStatus}}</li>
+                                    <li class="card-text">Audit Date: {{item.auditDate}}</li>
+                                  </ul>
+                                  <!-- @if (isAdmin){ -->
+                                    <a class="card-link">
+                                        <button (click)="onEdit(item)" class="btn btn-warning pd-3">Edit</button>
+                                      </a>
+                                      <a class="card-link">
+                                        <button (click)="deleteAuditRequest(item.auditId)" class="btn btn-danger pd-3">Delete</button>
+                                      </a>
+                                  <!-- } -->
+                                 
+                                </div>
+                              </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-4">
+        <div class="card">
+            <div class="card-header bg-success">
+                <h5>Add Asset </h5>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-12">
+                        <label for="">User Id</label>
+                        <input type="text" [(ngModel)]="auditRequestObj.userId" class="form-control">
+                    </div>
+                    <div class="col-12">
+                        <label for="">Allocation Id</label>
+                        <input type="text" [(ngModel)]="auditRequestObj.allocationId" class="form-control">
+                    </div>
+                    <div class="col-12">
+                        <label for="">Item</label>
+                        <input type="text" [(ngModel)]="auditRequestObj.item" class="form-control">
+                    </div>
+                    <div class="col-12">
+                        <label for="">Audit Status</label>
+                        <input type="text" [(ngModel)]="auditRequestObj.auditStatus" class="form-control">
+                    </div>
+                    <div class="col-12">
+                        <label for="">Audit Date</label>
+                        <input type="text" [(ngModel)]="auditRequestObj.auditDate" class="form-control">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 p-3">
+                        <button class="btn btn-secondary" (click)="resetAudit()">Reset</button>
+                    </div>
+                    <div class="col-6 p-3">
+                        <!-- @if (isAdmin){ -->
+                            @if(auditRequestObj.auditId==0){
+                                <button class="btn btn-success" (click)="onSaveAuditRequest()">Save</button>
+                            }@else {
+                                <button class="btn btn-warning" (click)="onUpdateAuditRequest()">Update</button>
+                            }
+                        <!-- } -->
+                        
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

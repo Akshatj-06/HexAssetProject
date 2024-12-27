@@ -1,0 +1,377 @@
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\NUnit3.TestAdapter.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\nunit.engine.netstandard.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\Mono.Cecil.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\appsettings.Development.json
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\appsettings.json
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\HexAsset.exe
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\HexAsset.deps.json
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\HexAsset.runtimeconfig.json
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\HexAsset.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\HexAsset.pdb
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\Azure.Core.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\Azure.Identity.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\BCrypt.Net-Next.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\Castle.Core.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\Humanizer.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\Microsoft.DotNet.InternalAbstractions.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\Moq.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\nunit.framework.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\System.ClientModel.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\System.CodeDom.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\System.Formats.Asn1.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\System.Memory.Data.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\System.Text.Json.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\System.Xml.XPath.XmlDocument.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\FSD Training\FinalCaseStudy\obj\Debug\net8.0\HexAsset.csproj.AssemblyReference.cache
+D:\FSD Training\FinalCaseStudy\obj\Debug\net8.0\HexAsset.GeneratedMSBuildEditorConfig.editorconfig
+D:\FSD Training\FinalCaseStudy\obj\Debug\net8.0\HexAsset.AssemblyInfoInputs.cache
+D:\FSD Training\FinalCaseStudy\obj\Debug\net8.0\HexAsset.AssemblyInfo.cs
+D:\FSD Training\FinalCaseStudy\obj\Debug\net8.0\HexAsset.csproj.CoreCompileInputs.cache
+D:\FSD Training\FinalCaseStudy\obj\Debug\net8.0\HexAsset.MvcApplicationPartsAssemblyInfo.cs
+D:\FSD Training\FinalCaseStudy\obj\Debug\net8.0\HexAsset.MvcApplicationPartsAssemblyInfo.cache
+D:\FSD Training\FinalCaseStudy\obj\Debug\net8.0\HexAsset.sourcelink.json
+D:\FSD Training\FinalCaseStudy\obj\Debug\net8.0\staticwebassets.build.json
+D:\FSD Training\FinalCaseStudy\obj\Debug\net8.0\staticwebassets.development.json
+D:\FSD Training\FinalCaseStudy\obj\Debug\net8.0\staticwebassets\msbuild.HexAsset.Microsoft.AspNetCore.StaticWebAssets.props
+D:\FSD Training\FinalCaseStudy\obj\Debug\net8.0\staticwebassets\msbuild.build.HexAsset.props
+D:\FSD Training\FinalCaseStudy\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.HexAsset.props
+D:\FSD Training\FinalCaseStudy\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.HexAsset.props
+D:\FSD Training\FinalCaseStudy\obj\Debug\net8.0\staticwebassets.pack.json
+D:\FSD Training\FinalCaseStudy\obj\Debug\net8.0\scopedcss\bundle\HexAsset.styles.css
+D:\FSD Training\FinalCaseStudy\obj\Debug\net8.0\HexAsset.csproj.Up2Date
+D:\FSD Training\FinalCaseStudy\obj\Debug\net8.0\HexAsset.dll
+D:\FSD Training\FinalCaseStudy\obj\Debug\net8.0\refint\HexAsset.dll
+D:\FSD Training\FinalCaseStudy\obj\Debug\net8.0\HexAsset.pdb
+D:\FSD Training\FinalCaseStudy\obj\Debug\net8.0\HexAsset.genruntimeconfig.cache
+D:\FSD Training\FinalCaseStudy\obj\Debug\net8.0\ref\HexAsset.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\HexAsset.staticwebassets.endpoints.json
+D:\FSD Training\FinalCaseStudy\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\FSD Training\FinalCaseStudy\obj\Debug\net8.0\staticwebassets\msbuild.HexAsset.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\FSD Training\FinalCaseStudy\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\FSD Training\FinalCaseStudy\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\NUnit3.TestAdapter.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\nunit.engine.netstandard.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\Mono.Cecil.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\appsettings.Development.json
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\appsettings.json
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\HexAsset.staticwebassets.endpoints.json
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\HexAsset.exe
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\HexAsset.deps.json
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\HexAsset.runtimeconfig.json
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\HexAsset.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\HexAsset.pdb
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\Azure.Core.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\Azure.Identity.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\BCrypt.Net-Next.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\Castle.Core.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\Humanizer.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\Microsoft.DotNet.InternalAbstractions.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\Moq.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\nunit.framework.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\System.ClientModel.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\System.CodeDom.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\System.Formats.Asn1.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\System.Text.Json.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\System.Xml.XPath.XmlDocument.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\Projects\HexAssetProject\HexAssetAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Projects\HexAssetProject\HexAssetAPI\obj\Debug\net8.0\HexAsset.csproj.AssemblyReference.cache
+D:\Projects\HexAssetProject\HexAssetAPI\obj\Debug\net8.0\HexAsset.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\HexAssetProject\HexAssetAPI\obj\Debug\net8.0\HexAsset.AssemblyInfoInputs.cache
+D:\Projects\HexAssetProject\HexAssetAPI\obj\Debug\net8.0\HexAsset.AssemblyInfo.cs
+D:\Projects\HexAssetProject\HexAssetAPI\obj\Debug\net8.0\HexAsset.csproj.CoreCompileInputs.cache
+D:\Projects\HexAssetProject\HexAssetAPI\obj\Debug\net8.0\HexAsset.MvcApplicationPartsAssemblyInfo.cs
+D:\Projects\HexAssetProject\HexAssetAPI\obj\Debug\net8.0\HexAsset.MvcApplicationPartsAssemblyInfo.cache
+D:\Projects\HexAssetProject\HexAssetAPI\obj\Debug\net8.0\scopedcss\bundle\HexAsset.styles.css
+D:\Projects\HexAssetProject\HexAssetAPI\obj\Debug\net8.0\staticwebassets.build.json
+D:\Projects\HexAssetProject\HexAssetAPI\obj\Debug\net8.0\staticwebassets.development.json
+D:\Projects\HexAssetProject\HexAssetAPI\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Projects\HexAssetProject\HexAssetAPI\obj\Debug\net8.0\staticwebassets\msbuild.HexAsset.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Projects\HexAssetProject\HexAssetAPI\obj\Debug\net8.0\staticwebassets\msbuild.HexAsset.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\Projects\HexAssetProject\HexAssetAPI\obj\Debug\net8.0\staticwebassets\msbuild.build.HexAsset.props
+D:\Projects\HexAssetProject\HexAssetAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.HexAsset.props
+D:\Projects\HexAssetProject\HexAssetAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.HexAsset.props
+D:\Projects\HexAssetProject\HexAssetAPI\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Projects\HexAssetProject\HexAssetAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Projects\HexAssetProject\HexAssetAPI\obj\Debug\net8.0\HexAsset.csproj.Up2Date
+D:\Projects\HexAssetProject\HexAssetAPI\obj\Debug\net8.0\HexAsset.dll
+D:\Projects\HexAssetProject\HexAssetAPI\obj\Debug\net8.0\refint\HexAsset.dll
+D:\Projects\HexAssetProject\HexAssetAPI\obj\Debug\net8.0\HexAsset.pdb
+D:\Projects\HexAssetProject\HexAssetAPI\obj\Debug\net8.0\HexAsset.genruntimeconfig.cache
+D:\Projects\HexAssetProject\HexAssetAPI\obj\Debug\net8.0\ref\HexAsset.dll

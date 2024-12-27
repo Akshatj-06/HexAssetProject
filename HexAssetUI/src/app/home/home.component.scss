@@ -1,0 +1,33 @@
+body {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .card {
+    background: #fff;
+    border-radius: 15px;
+  }
+  
+  .feature-card {
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+  
+    &:hover {
+      transform: scale(1.05);
+    }
+  
+    i {
+      font-size: 3rem;
+    }
+  }
+  
+  .btn-primary {
+    background-color: #2575fc;
+    border: none;
+  
+    &:hover {
+      background-color: #1a5fc4;
+    }
+  }
+  

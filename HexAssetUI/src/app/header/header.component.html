@@ -1,0 +1,32 @@
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" routerLink="Home" routerLinkActive="active">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <!-- <li class="nav-item">
+            <a class="nav-link" routerLink="User" routerLinkActive="active">User</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" routerLink="Asset" routerLinkActive="active">Asset</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="Asset-Request" routerLinkActive="active">Asset Request</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="Service-Request" routerLinkActive="active">ServiceRequest</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="Asset-Allocation" routerLinkActive="active">Asset Allocation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="Audit-Request" routerLinkActive="active">AuditRequest</a>
+          </li>
+        </ul>
+        <button class="btn btn-danger" (click)="onLogout()">Logout</button>
+      </div>
+    </div>
+  </nav>
+  <router-outlet></router-outlet>

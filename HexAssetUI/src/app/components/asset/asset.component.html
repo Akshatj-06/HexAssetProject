@@ -1,0 +1,82 @@
+<div class="row">
+    <div class="col-8">
+        <div class="card">
+            <div class="card-header bg-success">
+                <h5>Asset List</h5>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    @for (item of assetList; track $index) {
+                        <div class="col-4 pt-3 pd-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title">{{item.assetName}}</h4>
+                                    <ul>
+                                        <li class="card-text">Asset Id: {{item.assetId}}</li>
+                                        <li class="card-text">Category: {{item.assetCategory}}</li>
+                                        <li class="card-text">Model: {{item.assetModel}}</li>
+                                        <li class="card-text">Value: {{item.assetValue}}</li>
+                                        <li class="card-text">Status: {{item.currentStatus}}</li>
+                                    </ul>
+                                    <!-- @if (isAdmin) { -->
+                                        <a class="card-link">
+                                            <button (click)="onEdit(item)" class="btn btn-warning pd-3">Edit</button>
+                                        </a>
+                                        <a class="card-link">
+                                            <button (click)="deleteAsset(item.assetId)" class="btn btn-danger pd-3">Delete</button>
+                                        </a>
+                                    <!-- } -->
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-4">
+        <div class="card">
+            <div class="card-header bg-success">
+                <h5>Add Asset</h5>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-12">
+                        <label for="">Asset Name</label>
+                        <input type="text" [(ngModel)]="assetObj.assetName" class="form-control">
+                    </div>
+                    <div class="col-12">
+                        <label for="">Asset Category</label>
+                        <input type="text" [(ngModel)]="assetObj.assetCategory" class="form-control">
+                    </div>
+                    <div class="col-12">
+                        <label for="">Asset Model</label>
+                        <input type="text" [(ngModel)]="assetObj.assetModel" class="form-control">
+                    </div>
+                    <div class="col-12">
+                        <label for="">Asset Value</label>
+                        <input type="text" [(ngModel)]="assetObj.assetValue" class="form-control">
+                    </div>
+                    <div class="col-12">
+                        <label for="">Current Status</label>
+                        <input type="text" [(ngModel)]="assetObj.currentStatus" class="form-control">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 p-3">
+                        <button class="btn btn-secondary" (click)="resetAsset()">Reset</button>
+                    </div>
+                    <div class="col-6 p-3">
+                        <!-- @if (isAdmin) { -->
+                            @if (assetObj.assetId == 0) {
+                                <button class="btn btn-success" (click)="onSaveAsset()">Save</button>
+                            } @else {
+                                <button class="btn btn-warning" (click)="onUpdateAsset()">Update</button>
+                            }
+                        <!-- } -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

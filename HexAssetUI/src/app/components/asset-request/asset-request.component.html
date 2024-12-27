@@ -1,0 +1,83 @@
+<div class="row">
+    <div class="col-8">
+        <div class="card">
+            <div class="card-header bg-success">
+                <h5>Asset Request List</h5>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    @for (item of assetRequestList; track $index) {
+                        <div class="col-4 pt-3 pd-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Request Id: {{item.assetRequestId}}</h5>
+                                  <ul>
+                                    <li class="card-text">Asset Id: {{item.assetId}}</li>
+                                    <li class="card-text">User Id: {{item.userId}}</li>
+                                    <li class="card-text">Item: {{item.item}}</li>
+                                    <li class="card-text">Request Status: {{item.requestStatus}}</li>
+                                    <li class="card-text">
+                                        Request Date: {{ item.requestDate| date: 'yyyy-MM-dd' }}
+                                    </li>
+                                    
+                                  </ul>
+                                  <a class="card-link">
+                                    <button (click)="onEdit(item)" class="btn btn-warning pd-3">Edit</button>
+                                  </a>
+                                  <a class="card-link">
+                                    <button (click)="deleteAssetRequest(item.assetRequestId)" class="btn btn-danger pd-3">Delete</button>
+                                  </a>
+                                </div>
+                              </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-4">
+        <div class="card">
+            <div class="card-header bg-success">
+                <h5>Add Asset Request</h5>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-12">
+                        <label for="">Asset Id</label>
+                        <input type="text" [(ngModel)]="assetRequestObj.assetId" class="form-control">
+                    </div>
+                    <div class="col-12">
+                        <label for="">User Id</label>
+                        <input type="text" [(ngModel)]="assetRequestObj.userId" class="form-control">
+                    </div>
+                    <div class="col-12">
+                        <label for="">Item</label>
+                        <input type="text" [(ngModel)]="assetRequestObj.item" class="form-control">
+                    </div>
+                    <div class="col-12">
+                        <label for="">Request Status</label>
+                        <input type="text" [(ngModel)]="assetRequestObj.requestStatus" class="form-control">
+                    </div>
+                    <div class="col-12">
+                        <label for="">Request Date</label>
+                        <input type="text" [(ngModel)]="assetRequestObj.requestDate" class="form-control">
+                    </div>
+                   
+                </div>
+                <div class="row">
+                    <div class="col-6 p-3">
+                        <button class="btn btn-secondary" (click)="resetAssetRequest()">Reset</button>
+                    </div>
+                    <div class="col-6 p-3">
+                        @if(assetRequestObj.assetRequestId==0){
+                            <button class="btn btn-success" (click)="onSaveAssetRequest()">Save</button>
+                        }@else {
+                            <button class="btn btn-warning" (click)="onUpdateAssetRequest()">Update</button>
+                        }
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
