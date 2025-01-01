@@ -13,7 +13,7 @@
                                     <h5 class="card-title">Request Id: {{item.assetRequestId}}</h5>
                                   <ul>
                                     <li class="card-text">Asset Id: {{item.assetId}}</li>
-                                    <li class="card-text">User Id: {{item.userId}}</li>
+                                    <li class="card-text">User Name: {{item.userName}}</li>
                                     <li class="card-text">Item: {{item.item}}</li>
                                     <li class="card-text">Request Status: {{item.requestStatus}}</li>
                                     <li class="card-text">
@@ -47,17 +47,19 @@
                         <input type="text" [(ngModel)]="assetRequestObj.assetId" class="form-control">
                     </div>
                     <div class="col-12">
-                        <label for="">User Id</label>
-                        <input type="text" [(ngModel)]="assetRequestObj.userId" class="form-control">
+                        <label for="">User Name</label>
+                        <input type="text" [(ngModel)]="assetRequestObj.userName" class="form-control">
                     </div>
                     <div class="col-12">
                         <label for="">Item</label>
                         <input type="text" [(ngModel)]="assetRequestObj.item" class="form-control">
                     </div>
-                    <div class="col-12">
-                        <label for="">Request Status</label>
-                        <input type="text" [(ngModel)]="assetRequestObj.requestStatus" class="form-control">
-                    </div>
+                    @if (assetRequestObj.assetRequestId != 0) {
+                        <div class="col-12">
+                            <label for="">Request Status</label>
+                            <input type="text" [(ngModel)]="assetRequestObj.requestStatus" class="form-control">
+                        </div>
+                    }
                     <div class="col-12">
                         <label for="">Request Date</label>
                         <input type="text" [(ngModel)]="assetRequestObj.requestDate" class="form-control">

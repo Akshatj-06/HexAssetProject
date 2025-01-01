@@ -12,7 +12,7 @@ export class ServiceRequestService {
   constructor(private http:HttpClient) { }
 
   getServiceRequest(){
-    return this.http.get(this.apiUrl +"GetServiceRequest")
+    return this.http.get(this.apiUrl +"GetServiceRequests")
   }
 
   onSaveServiceRequest(obj: ServiceRequestModel){

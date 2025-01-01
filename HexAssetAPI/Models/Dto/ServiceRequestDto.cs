@@ -8,6 +8,8 @@ namespace HexAsset.Models.Dto
 		public int AssetId { get; set; }
 		[Required(ErrorMessage = "User Id is required")]
 		public int UserId { get; set; }
+
+		public string UserName { get; set; }
 		public string? Description { get; set; }
 		[Required(ErrorMessage = "Please update status")]
 		public required string RequestStatus { get; set; }

@@ -109,10 +109,14 @@ namespace HexAsset.Controllers
 				var claims = new[]
 				{
 			new Claim(JwtRegisteredClaimNames.Sub, user.Email),
+			new Claim("UserId", user.UserId.ToString()),
 			new Claim("role", user.Role),
 			new Claim(ClaimTypes.Role, user.Role),
 			new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
+
 		};
+				Console.WriteLine($"Generated token for user {user.Email} with role: {user.Role}");
+
 
 				var token = new JwtSecurityToken(
 					_config["Jwt:Issuer"],

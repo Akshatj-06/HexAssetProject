@@ -317,7 +317,7 @@
   },
   {
     "ContainingType": "HexAsset.Controllers.ServiceRequestController",
-    "Method": "AddAsset",
+    "Method": "AddServiceRequest",
     "RelativePath": "api/ServiceRequest/AddServiceRequest",
     "HttpMethod": "POST",
     "IsController": true,
@@ -349,16 +349,6 @@
   },
   {
     "ContainingType": "HexAsset.Controllers.ServiceRequestController",
-    "Method": "GetAllServiceRequests",
-    "RelativePath": "api/ServiceRequest/GetServiceRequest",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "HexAsset.Controllers.ServiceRequestController",
     "Method": "GetServiceRequestById",
     "RelativePath": "api/ServiceRequest/GetServiceRequestById/{id}",
     "HttpMethod": "GET",
@@ -371,6 +361,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HexAsset.Controllers.ServiceRequestController",
+    "Method": "GetAllServiceRequests",
+    "RelativePath": "api/ServiceRequest/GetServiceRequests",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {

@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Security.Claims;
 
 namespace HexAsset.Controllers
 {
@@ -20,19 +21,42 @@ namespace HexAsset.Controllers
 
 		[HttpGet]
 		[Route("GetAssetAllocation")]
+		[Authorize]
 		public async Task<IActionResult> GetAllAssetAllocations()
 		{
 			try
 			{
-				var assetAllocations= await dbContext.AssetAllocations.ToListAsync();
-				return Ok(assetAllocations);
+				// Retrieve the user's role from the claims
+				var userRole = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Role)?.Value;
+
+				if (userRole == "Admin")
+				{
+					// Admin can view all asset allocations
+					var assetAllocations = await dbContext.AssetAllocations.ToListAsync();
+					return Ok(assetAllocations);
+				}
+				else
+				{
+					// Employee can only view their allocated assets
+					var userIdClaim = User.Claims.FirstOrDefault(c => c.Type == "UserId");
+					if (userIdClaim == null || string.IsNullOrEmpty(userIdClaim.Value))
+					{
+						return Unauthorized("User ID not found in token.");
+					}
+
+					var userId = Convert.ToInt32(userIdClaim.Value);
+					var assetAllocations = await dbContext.AssetAllocations
+														  .Where(aa => aa.UserId == userId)
+														  .ToListAsync();
+					return Ok(assetAllocations);
+				}
 			}
 			catch (Exception ex)
 			{
 				return StatusCode(500, $"Internal server error: {ex.Message}");
 			}
-
 		}
+
 
 
 		[HttpGet("GetAssetAllocationById/{id}")]

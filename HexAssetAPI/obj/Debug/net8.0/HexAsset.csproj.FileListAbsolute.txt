@@ -375,3 +375,4 @@ D:\Projects\HexAssetProject\HexAssetAPI\obj\Debug\net8.0\refint\HexAsset.dll
 D:\Projects\HexAssetProject\HexAssetAPI\obj\Debug\net8.0\HexAsset.pdb
 D:\Projects\HexAssetProject\HexAssetAPI\obj\Debug\net8.0\HexAsset.genruntimeconfig.cache
 D:\Projects\HexAssetProject\HexAssetAPI\obj\Debug\net8.0\ref\HexAsset.dll
+D:\Projects\HexAssetProject\HexAssetAPI\obj\Debug\net8.0\HexAsset.sourcelink.json

@@ -25,11 +25,13 @@ export class AssetRequestComponent implements OnInit {
   ngOnInit(): void {
     const token = localStorage.getItem('jwtToken');
     if (token) {
-      const decodedToken: any = jwtDecode(token);
-      this.isAdmin = decodedToken.role === 'Admin';
+        const decodedToken: any = jwtDecode(token);
+        this.isAdmin = decodedToken.role === 'Admin';
     }
     this.getAssetRequest();
-  }
+}
+
+  
 
   getAssetRequest() {
     this.assetRequestSrv.getAssetRequest()
@@ -43,12 +45,19 @@ export class AssetRequestComponent implements OnInit {
         this.assetRequestList = result;
       });
   }
+  
 
   onEdit(data: AssetRequestModel) {
     this.assetRequestObj = { ...data };
   }
 
   onSaveAssetRequest() {
+    const token = localStorage.getItem('jwtToken');
+    if (token) {
+      const decodedToken: any = jwtDecode(token);
+      this.assetRequestObj.userId = decodedToken.UserId; // Automatically assign UserId from token
+    }
+  
     this.assetRequestSrv.onSaveAssetRequest(this.assetRequestObj)
       .pipe(
         catchError((error) => {
@@ -63,8 +72,14 @@ export class AssetRequestComponent implements OnInit {
         }
       });
   }
-
+  
   onUpdateAssetRequest() {
+    const token = localStorage.getItem('jwtToken');
+    if (token) {
+      const decodedToken: any = jwtDecode(token);
+      this.assetRequestObj.userId = decodedToken.UserId; // Automatically assign UserId from token
+    }
+  
     this.assetRequestSrv.onUpdateAssetRequest(this.assetRequestObj)
       .pipe(
         catchError((error) => {
@@ -79,6 +94,7 @@ export class AssetRequestComponent implements OnInit {
         }
       });
   }
+  
 
   deleteAssetRequest(id: number) {
     const isDelete = confirm('Are you sure you want to delete the asset request?');

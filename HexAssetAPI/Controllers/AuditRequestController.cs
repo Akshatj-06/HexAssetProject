@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
 
 namespace HexAsset.Controllers
 {
@@ -20,19 +21,39 @@ namespace HexAsset.Controllers
 
 		[HttpGet]
 		[Route("GetAuditRequest")]
+		[Authorize]
 		public async Task<IActionResult> GetAllAuditRequests()
 		{
 			try
 			{
-				var auditRequests= await dbContext.AuditRequests.ToListAsync();
-				return Ok(auditRequests);
+				var userRole = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Role)?.Value;
+				Console.WriteLine("User Role: " + userRole);  // Log user role
+
+				if (userRole == "Admin")
+				{
+					// Admin should see all audit requests
+					var auditRequests = await dbContext.AuditRequests.ToListAsync();
+					Console.WriteLine($"Admin Audit Requests Count: {auditRequests.Count}");  // Log count of audit requests
+					return Ok(auditRequests);
+				}
+				else
+				{
+					var userId = User.Claims.FirstOrDefault(c => c.Type == "UserId")?.Value;
+					Console.WriteLine("User ID: " + userId);  // Log user ID
+
+					var auditRequests = await dbContext.AuditRequests
+													   .Where(ar => ar.UserId == Convert.ToInt32(userId))
+													   .ToListAsync();
+					Console.WriteLine($"User Audit Requests Count: {auditRequests.Count}");  // Log count for user
+					return Ok(auditRequests);
+				}
 			}
 			catch (Exception ex)
 			{
 				return StatusCode(500, $"Internal server error: {ex.Message}");
 			}
-
 		}
+
 
 
 		[HttpGet("GetAuditRequestById/{id}")]

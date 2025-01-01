@@ -529,7 +529,7 @@
         }
       }
     },
-    "/api/ServiceRequest/GetServiceRequest": {
+    "/api/ServiceRequest/GetServiceRequests": {
       "get": {
         "tags": [
           "ServiceRequest"
@@ -922,9 +922,9 @@
       "AssetRequestDto": {
         "required": [
           "assetId",
-          "item",
           "requestStatus",
-          "userId"
+          "userId",
+          "userName"
         ],
         "type": "object",
         "properties": {
@@ -936,9 +936,13 @@
             "type": "integer",
             "format": "int32"
           },
-          "item": {
+          "userName": {
             "minLength": 1,
             "type": "string"
+          },
+          "item": {
+            "type": "string",
+            "nullable": true
           },
           "requestStatus": {
             "type": "string",
@@ -1035,6 +1039,10 @@
           "userId": {
             "type": "integer",
             "format": "int32"
+          },
+          "userName": {
+            "type": "string",
+            "nullable": true
           },
           "description": {
             "type": "string",

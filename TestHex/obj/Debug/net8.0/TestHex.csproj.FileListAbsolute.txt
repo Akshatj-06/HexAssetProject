@@ -355,3 +355,4 @@ D:\Projects\HexAssetProject\TestHex\obj\Debug\net8.0\refint\TestHex.dll
 D:\Projects\HexAssetProject\TestHex\obj\Debug\net8.0\TestHex.pdb
 D:\Projects\HexAssetProject\TestHex\obj\Debug\net8.0\TestHex.genruntimeconfig.cache
 D:\Projects\HexAssetProject\TestHex\obj\Debug\net8.0\ref\TestHex.dll
+D:\Projects\HexAssetProject\TestHex\obj\Debug\net8.0\TestHex.sourcelink.json

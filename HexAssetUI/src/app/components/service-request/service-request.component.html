@@ -13,7 +13,7 @@
                                     <h5 class="card-title">Request Id: {{item.serviceRequestId}}</h5>
                                   <ul>
                                     <li class="card-text">Asset Id: {{item.assetId}}</li>
-                                    <li class="card-text">UserId: {{item.userId}}</li>
+                                    <li class="card-text">User Name: {{item.userName}}</li>
                                     <li class="card-text">Description: {{item.description}}</li>
                                     <li class="card-text">Request Status: {{item.requestStatus}}</li>
                                     <li class="card-text">Request Date: {{item.requestDate}}</li>
@@ -45,17 +45,19 @@
                         <input type="text" [(ngModel)]="serviceRequestObj.assetId" class="form-control">
                     </div>
                     <div class="col-12">
-                        <label for="">User Id</label>
-                        <input type="text" [(ngModel)]="serviceRequestObj.userId" class="form-control">
+                        <label for="">User Name</label>
+                        <input type="text" [(ngModel)]="serviceRequestObj.userName" class="form-control">
                     </div>
                     <div class="col-12">
                         <label for="">Description</label>
                         <input type="text" [(ngModel)]="serviceRequestObj.description" class="form-control">
                     </div>
-                    <div class="col-12">
-                        <label for="">Request Status</label>
-                        <input type="text" [(ngModel)]="serviceRequestObj.requestStatus" class="form-control">
-                    </div>
+                    @if (serviceRequestObj.serviceRequestId != 0) {
+                        <div class="col-12">
+                            <label for="">Request Status</label>
+                            <input type="text" [(ngModel)]="serviceRequestObj.requestStatus" class="form-control">
+                        </div>
+                    }
                     <div class="col-12">
                         <label for="">Request Date</label>
                         <input type="text" [(ngModel)]="serviceRequestObj.requestDate" class="form-control">
