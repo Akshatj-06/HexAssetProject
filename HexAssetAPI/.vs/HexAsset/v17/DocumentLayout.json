@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\Projects\\HexAssetProject\\HexAssetAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{32E2A8E3-65EA-4DE1-9BC1-B742798CEFC7}|HexAsset.csproj|d:\\projects\\hexassetproject\\hexassetapi\\controllers\\servicerequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32E2A8E3-65EA-4DE1-9BC1-B742798CEFC7}|HexAsset.csproj|solutionrelative:controllers\\servicerequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{32E2A8E3-65EA-4DE1-9BC1-B742798CEFC7}|HexAsset.csproj|d:\\projects\\hexassetproject\\hexassetapi\\models\\dto\\assetrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32E2A8E3-65EA-4DE1-9BC1-B742798CEFC7}|HexAsset.csproj|solutionrelative:models\\dto\\assetrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{32E2A8E3-65EA-4DE1-9BC1-B742798CEFC7}|HexAsset.csproj|d:\\projects\\hexassetproject\\hexassetapi\\controllers\\assetrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32E2A8E3-65EA-4DE1-9BC1-B742798CEFC7}|HexAsset.csproj|solutionrelative:controllers\\assetrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32E2A8E3-65EA-4DE1-9BC1-B742798CEFC7}|HexAsset.csproj|d:\\projects\\hexassetproject\\hexassetapi\\controllers\\servicerequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32E2A8E3-65EA-4DE1-9BC1-B742798CEFC7}|HexAsset.csproj|solutionrelative:controllers\\servicerequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,15 +27,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AssetRequestDto.cs",
+              "DocumentMoniker": "D:\\Projects\\HexAssetProject\\HexAssetAPI\\Models\\Dto\\AssetRequestDto.cs",
+              "RelativeDocumentMoniker": "Models\\Dto\\AssetRequestDto.cs",
+              "ToolTip": "D:\\Projects\\HexAssetProject\\HexAssetAPI\\Models\\Dto\\AssetRequestDto.cs",
+              "RelativeToolTip": "Models\\Dto\\AssetRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T18:35:20.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ServiceRequestController.cs",
               "DocumentMoniker": "D:\\Projects\\HexAssetProject\\HexAssetAPI\\Controllers\\ServiceRequestController.cs",
               "RelativeDocumentMoniker": "Controllers\\ServiceRequestController.cs",
               "ToolTip": "D:\\Projects\\HexAssetProject\\HexAssetAPI\\Controllers\\ServiceRequestController.cs",
               "RelativeToolTip": "Controllers\\ServiceRequestController.cs",
-              "ViewState": "AgIAAGcAAAAAAAAAAAAkwHAAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAkwIAAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T16:14:32.383Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-01T16:14:32.383Z"
             },
             {
               "$type": "Document",
@@ -41,10 +57,9 @@
               "RelativeDocumentMoniker": "Controllers\\AssetRequestController.cs",
               "ToolTip": "D:\\Projects\\HexAssetProject\\HexAssetAPI\\Controllers\\AssetRequestController.cs",
               "RelativeToolTip": "Controllers\\AssetRequestController.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAAwHAAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T16:10:42.826Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-01T16:10:42.826Z"
             }
           ]
         }

@@ -80,20 +80,27 @@ export class AssetRequestComponent implements OnInit {
       this.assetRequestObj.userId = decodedToken.UserId; // Automatically assign UserId from token
     }
   
-    this.assetRequestSrv.onUpdateAssetRequest(this.assetRequestObj)
-      .pipe(
-        catchError((error) => {
-          this.toaster.error('Failed to update the asset request. Please try again.', 'Error');
-          return of(null); 
-        })
-      )
-      .subscribe((result: any) => {
-        if (result) {
-          this.toaster.info('Asset Request Updated Successfully', 'Info');
-          this.getAssetRequest();
-        }
-      });
+    // Ensure all required fields are filled
+    if (this.assetRequestObj.assetId && this.assetRequestObj.userId && this.assetRequestObj.requestStatus) {
+      this.assetRequestSrv.onUpdateAssetRequest(this.assetRequestObj)
+        .pipe(
+          catchError((error) => {
+            console.error(error); // Log the error for debugging
+            this.toaster.error('Failed to update the asset request. Please try again.', 'Error');
+            return of(null); // Return null to prevent UI crash
+          })
+        )
+        .subscribe((result: any) => {
+          if (result) {
+            this.toaster.info('Asset Request Updated Successfully', 'Info');
+            this.getAssetRequest(); // Reload the list of asset requests
+          }
+        });
+    } else {
+      this.toaster.error('Please fill in all required fields before updating.', 'Error');
+    }
   }
+  
   
 
   deleteAssetRequest(id: number) {

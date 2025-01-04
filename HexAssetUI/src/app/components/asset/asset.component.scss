@@ -1,0 +1,51 @@
+.asset-item {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  width: calc(33.333% - 20px); /* 3 items per row, adjust as needed */
+  min-height: 350px; /* Set a minimum height for each card */
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
+  
+  /* Flexbox to ensure the card content stretches evenly */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.asset-item:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.asset-item img {
+  height: 200px; /* Set a fixed height for the image */
+  width: 100%;
+  object-fit: cover; /* Ensure aspect ratio is maintained */
+  margin-bottom: 15px;
+}
+
+.asset-item .card-body {
+  flex-grow: 1; /* Makes sure card content fills available space */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.asset-item .btn {
+  margin-top: auto; /* Puts the button at the bottom of the card */
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 5px 10px;
+}

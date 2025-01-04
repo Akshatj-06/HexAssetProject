@@ -10,6 +10,7 @@ import { LoginComponent } from "./login/login.component";
 import { ForgotPasswordComponent } from "./login/forgot-password/forgot-password.component";
 import { authGuard } from "./guard/auth.guard";
 import { HomeComponent } from "./home/home.component";
+import { ProfileComponent } from "./components/profile/profile.component";
 
 export const routes: Routes = [
     {
@@ -62,6 +63,10 @@ export const routes: Routes = [
             {
                 path: 'Audit-Request',
                 component: AuditRequestComponent
+            },
+            {
+                path: 'Profile',
+                component: ProfileComponent
             }
         ]
     },

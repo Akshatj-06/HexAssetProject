@@ -112,6 +112,7 @@ namespace HexAsset.Controllers
 			new Claim("UserId", user.UserId.ToString()),
 			new Claim("role", user.Role),
 			new Claim(ClaimTypes.Role, user.Role),
+			new Claim("Name", user.Name),
 			new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
 
 		};

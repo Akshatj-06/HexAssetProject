@@ -5,6 +5,7 @@ export class AssetModel {
     assetModel: string;
     assetValue: number;
     currentStatus: string;
+    assetImageUrl: string;
 
     constructor() {
         this.assetId = 0;
@@ -13,6 +14,7 @@ export class AssetModel {
         this.assetModel = "";
         this.assetValue = 0;
         this.currentStatus = "";
+        this.assetImageUrl = "";
 
     }
 }

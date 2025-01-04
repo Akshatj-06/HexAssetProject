@@ -18,7 +18,14 @@ export class AssetComponent implements OnInit {
 
   isAdmin: boolean = false;
   assetList: AssetModel[] = [];
+  filteredAssets: AssetModel[] = [];
+  paginatedAssets: AssetModel[] = [];
   assetObj: AssetModel = new AssetModel();
+  currentPage: number = 1;
+  pageSize: number = 6;
+  selectedCategory: string = ''; 
+  showSearch: boolean = false;
+
   assetSrv = inject(AssetService);
   toaster = inject(ToastrService);
 
@@ -41,7 +48,44 @@ export class AssetComponent implements OnInit {
       )
       .subscribe((result: any) => {
         this.assetList = result;
+        this.filteredAssets = [...this.assetList]; // Initialize filteredAssets with all assets
+        this.updatePaginatedAssets();
       });
+  }
+
+  // Method to filter assets based on the selected category
+  filterAssets() {
+    if (this.selectedCategory) {
+      this.filteredAssets = this.assetList.filter(asset => asset.assetCategory === this.selectedCategory);
+    } else {
+      this.filteredAssets = [...this.assetList]; // If no category selected, show all assets
+    }
+    this.currentPage = 1; // Reset to the first page after filtering
+    this.updatePaginatedAssets();
+  }
+
+  get totalPages(): number {
+    return Math.ceil(this.filteredAssets.length / this.pageSize);
+  }
+
+  updatePaginatedAssets() {
+    const startIndex = (this.currentPage - 1) * this.pageSize;
+    const endIndex = startIndex + this.pageSize;
+    this.paginatedAssets = this.filteredAssets.slice(startIndex, endIndex);
+  }
+
+  nextPage() {
+    if ((this.currentPage * this.pageSize) < this.filteredAssets.length) {
+      this.currentPage++;
+      this.updatePaginatedAssets();
+    }
+  }
+
+  previousPage() {
+    if (this.currentPage > 1) {
+      this.currentPage--;
+      this.updatePaginatedAssets();
+    }
   }
 
   onEdit(data: AssetModel) {
@@ -52,7 +96,11 @@ export class AssetComponent implements OnInit {
     this.assetSrv.onSaveAsset(this.assetObj)
       .pipe(
         catchError((error) => {
-          this.toaster.error('Failed to save the asset. Please try again.', 'Error');
+          if (error.status === 403) {
+            this.toaster.error('You are not authorized to perform this action', 'Authorization Error');
+          } else {
+            this.toaster.error('Failed to save the asset. Please try again.', 'Error');
+          }
           return of(null);
         })
       )
@@ -102,4 +150,12 @@ export class AssetComponent implements OnInit {
   resetAsset() {
     this.assetObj = new AssetModel();
   }
+
+  toggleSearch() {
+    this.showSearch = !this.showSearch;
+  }
+
+  getAssetImageUrl(assetId: number): string {
+    return `assets/images/${assetId}.jpg`; 
+}
 }

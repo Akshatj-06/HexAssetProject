@@ -1,0 +1,26 @@
+/* Wrapper for the select dropdown */
+.dropdown-container {
+    position: relative;
+    width: 100%; /* Make the wrapper full width */
+  }
+  
+  /* Style the select box */
+  .custom-select {
+    width: 100%; /* Full width */
+    padding-right: 30px; /* Extra space for the dropdown icon */
+    appearance: none; /* Remove default arrow */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding-left: 10px; /* Optional: space between the text and the left side */
+  }
+  
+  /* Position the dropdown icon */
+  .dropdown-icon {
+    position: absolute;
+    right: 10px; /* Adjust as needed for spacing */
+    top: 50%;
+    transform: translateY(-50%); /* Center vertically */
+    pointer-events: none; /* Allow clicks on the select box */
+    color: #999; /* Optional: Icon color */
+  }
+  

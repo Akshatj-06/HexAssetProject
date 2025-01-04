@@ -1,0 +1,52 @@
+<div class="container">
+    <h2>Profile</h2>
+    <form (ngSubmit)="updateProfile()">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input
+          type="text"
+          id="name"
+          [(ngModel)]="userProfile.name"
+          name="name"
+          class="form-control"
+        />
+      </div>
+  
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          [(ngModel)]="userProfile.email"
+          name="email"
+          class="form-control"
+          disabled
+        />
+      </div>
+  
+      <div class="form-group">
+        <label for="contactNumber">Contact Number</label>
+        <input
+          type="text"
+          id="contactNumber"
+          [(ngModel)]="userProfile.contactNumber"
+          name="contactNumber"
+          class="form-control"
+        />
+      </div>
+  
+      <div class="form-group">
+        <label for="address">Address</label>
+        <textarea
+          id="address"
+          [(ngModel)]="userProfile.address"
+          name="address"
+          class="form-control"
+        ></textarea>
+      </div>
+
+  
+      <button type="submit" class="btn btn-primary">Update Profile</button>
+    </form>
+  </div>
+  

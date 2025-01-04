@@ -17,15 +17,18 @@ export class HeaderComponent implements OnInit {
 
   isAdmin: boolean = false;
   userId: number | null = null;
+  username: string | null = null;
 
   ngOnInit(): void {
     const token = localStorage.getItem('jwtToken');
     if (token) {
       const decodedToken: any = jwtDecode(token);
       this.isAdmin = decodedToken.role === 'Admin';
-      this.userId = decodedToken.userId; 
+      this.userId = decodedToken.userId;
+      this.username = decodedToken.Name; // Assuming `username` exists in the JWT payload.
     }
   }
+  
 
   onLogout() {
     this.loginSrv.onLogout();

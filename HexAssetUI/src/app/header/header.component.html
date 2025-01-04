@@ -6,10 +6,7 @@
     </button>
     <div class="collapse navbar-collapse" id="mynavbar">
       <ul class="navbar-nav me-auto">
-        <!-- Home Link -->
-        <li class="nav-item">
-          <a class="nav-link" routerLink="Home" routerLinkActive="active">Home</a>
-        </li>
+    
 
         <!-- Admin-Only Links -->
         @if (isAdmin) {
@@ -36,6 +33,12 @@
           <a class="nav-link" routerLink="Audit-Request" routerLinkActive="active">Audit Request</a>
         </li>
       </ul>
+      <span class="navbar-text text-light me-3 welcome-text">
+        <a routerLink="Profile" class="text-decoration-none text-light">
+          <i class="bi bi-person-circle"></i> Welcome, <strong>{{ username }}</strong>
+        </a>
+      </span>
+      
       <button class="btn btn-danger" (click)="onLogout()">Logout</button>
     </div>
   </div>
