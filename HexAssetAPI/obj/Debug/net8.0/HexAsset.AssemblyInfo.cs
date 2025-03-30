@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HexAsset")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+acba865ec75fad42f7bfa06939a64e3a51592923")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+798db5a4c90ade487aafc2da009f72a634a2818a")]
 [assembly: System.Reflection.AssemblyProductAttribute("HexAsset")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HexAsset")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -24,7 +24,6 @@ export class LoginComponent {
     this.loginSrv.onLogin(this.loginObj)
       .pipe(
         catchError((error) => {
-       
           if (error.status === 401) {
             this.toaster.error('Invalid credentials. Please try again.', 'Login Failed');
           } else if (error.status === 400) {
@@ -32,18 +31,17 @@ export class LoginComponent {
           } else {
             this.toaster.error('Something went wrong. Please try later.', 'Login Error');
           }
-       
           return of(null);
         })
       )
       .subscribe((result: any) => {
         if (result) {
           this.toaster.success('Logged in Successfully', 'Success');
-          localStorage.setItem('jwtToken', result.token);
           this.router.navigateByUrl('header/Home');
         }
       });
   }
+  
 
  
 

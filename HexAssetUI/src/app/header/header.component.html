@@ -9,7 +9,7 @@
     
 
         <!-- Admin-Only Links -->
-        @if (isAdmin) {
+        @if (isAdmin && isLoggedIn) {
           <li class="nav-item">
             <a class="nav-link" routerLink="User" routerLinkActive="active">User</a>
           </li>
@@ -17,29 +17,37 @@
         }
 
         <!-- Common Links -->
-        <li class="nav-item">
-          <a class="nav-link" routerLink="Asset" routerLinkActive="active">Asset</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="Asset-Request" routerLinkActive="active">Asset Request</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="Service-Request" routerLinkActive="active">Service Request</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="Asset-Allocation" routerLinkActive="active">Asset Allocation</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="Audit-Request" routerLinkActive="active">Audit Request</a>
-        </li>
+        @if (isLoggedIn) {
+          <li class="nav-item">
+            <a class="nav-link" routerLink="Asset" routerLinkActive="active">Asset</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="Asset-Request" routerLinkActive="active">Asset Request</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="Service-Request" routerLinkActive="active">Service Request</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="Asset-Allocation" routerLinkActive="active">Asset Allocation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="Audit-Request" routerLinkActive="active">Audit Request</a>
+          </li>
+        }
+        
+       
       </ul>
-      <span class="navbar-text text-light me-3 welcome-text">
-        <a routerLink="Profile" class="text-decoration-none text-light">
-          <i class="bi bi-person-circle"></i> Welcome, <strong>{{ username }}</strong>
-        </a>
-      </span>
-      
-      <button class="btn btn-danger" (click)="onLogout()">Logout</button>
+      @if (isLoggedIn) {
+        <span class="navbar-text text-light me-3 welcome-text">
+          <a routerLink="Profile" class="text-decoration-none text-light">
+            <i class="bi bi-person-circle"></i> Welcome, <strong>{{ username }}</strong>
+          </a>
+        </span>
+        <button class="btn btn-danger" (click)="onLogout()">Logout</button>
+      }
+      @else {
+        <a class="btn btn-success" routerLink="login">Login</a>
+      }
     </div>
   </div>
 </nav>

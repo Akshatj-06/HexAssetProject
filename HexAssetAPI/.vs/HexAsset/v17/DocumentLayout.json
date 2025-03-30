@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\Projects\\HexAssetProject\\HexAssetAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{32E2A8E3-65EA-4DE1-9BC1-B742798CEFC7}|HexAsset.csproj|d:\\projects\\hexassetproject\\hexassetapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32E2A8E3-65EA-4DE1-9BC1-B742798CEFC7}|HexAsset.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32E2A8E3-65EA-4DE1-9BC1-B742798CEFC7}|HexAsset.csproj|d:\\projects\\hexassetproject\\hexassetapi\\controllers\\servicerequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32E2A8E3-65EA-4DE1-9BC1-B742798CEFC7}|HexAsset.csproj|solutionrelative:controllers\\servicerequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{32E2A8E3-65EA-4DE1-9BC1-B742798CEFC7}|HexAsset.csproj|d:\\projects\\hexassetproject\\hexassetapi\\models\\dto\\assetrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32E2A8E3-65EA-4DE1-9BC1-B742798CEFC7}|HexAsset.csproj|solutionrelative:models\\dto\\assetrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{32E2A8E3-65EA-4DE1-9BC1-B742798CEFC7}|HexAsset.csproj|d:\\projects\\hexassetproject\\hexassetapi\\controllers\\assetrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32E2A8E3-65EA-4DE1-9BC1-B742798CEFC7}|HexAsset.csproj|solutionrelative:controllers\\assetrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32E2A8E3-65EA-4DE1-9BC1-B742798CEFC7}|HexAsset.csproj|d:\\projects\\hexassetproject\\hexassetapi\\controllers\\servicerequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32E2A8E3-65EA-4DE1-9BC1-B742798CEFC7}|HexAsset.csproj|solutionrelative:controllers\\servicerequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +26,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Projects\\HexAssetProject\\HexAssetAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "D:\\Projects\\HexAssetProject\\HexAssetAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T06:06:34.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "AssetRequestDto.cs",
               "DocumentMoniker": "D:\\Projects\\HexAssetProject\\HexAssetAPI\\Models\\Dto\\AssetRequestDto.cs",
               "RelativeDocumentMoniker": "Models\\Dto\\AssetRequestDto.cs",
@@ -34,24 +59,23 @@
               "RelativeToolTip": "Models\\Dto\\AssetRequestDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T18:35:20.108Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-03T18:35:20.108Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ServiceRequestController.cs",
               "DocumentMoniker": "D:\\Projects\\HexAssetProject\\HexAssetAPI\\Controllers\\ServiceRequestController.cs",
               "RelativeDocumentMoniker": "Controllers\\ServiceRequestController.cs",
               "ToolTip": "D:\\Projects\\HexAssetProject\\HexAssetAPI\\Controllers\\ServiceRequestController.cs",
               "RelativeToolTip": "Controllers\\ServiceRequestController.cs",
-              "ViewState": "AgIAAHkAAAAAAAAAAAAkwIAAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAA6wKcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-01T16:14:32.383Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "AssetRequestController.cs",
               "DocumentMoniker": "D:\\Projects\\HexAssetProject\\HexAssetAPI\\Controllers\\AssetRequestController.cs",
               "RelativeDocumentMoniker": "Controllers\\AssetRequestController.cs",

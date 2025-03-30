@@ -15,23 +15,41 @@ export class HeaderComponent implements OnInit {
   router = inject(Router);
   toaster = inject(ToastrService);
 
+  isLoggedIn: boolean = false;
   isAdmin: boolean = false;
   userId: number | null = null;
   username: string | null = null;
 
   ngOnInit(): void {
+    this.updateUserState();
+
+    // Subscribe to login state changes
+    this.loginSrv.isLoggedIn$.subscribe((status) => {
+      this.isLoggedIn = status;
+      this.updateUserState(); // Recheck token details when login state changes
+    });
+  }
+
+  updateUserState() {
     const token = localStorage.getItem('jwtToken');
     if (token) {
       const decodedToken: any = jwtDecode(token);
       this.isAdmin = decodedToken.role === 'Admin';
       this.userId = decodedToken.userId;
-      this.username = decodedToken.Name; // Assuming `username` exists in the JWT payload.
+      this.username = decodedToken.Name;
+      this.isLoggedIn = true;
+    } else {
+      this.isLoggedIn = false;
+      this.isAdmin = false;
+      this.userId = null;
+      this.username = null;
     }
   }
   
 
   onLogout() {
     this.loginSrv.onLogout();
+    this.isLoggedIn = false;
     this.toaster.success('Logged out Successfully', 'Success');
     this.router.navigateByUrl('login');
   }

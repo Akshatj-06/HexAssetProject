@@ -15,7 +15,7 @@ import { ProfileComponent } from "./components/profile/profile.component";
 export const routes: Routes = [
     {
         path: '',
-        redirectTo: 'login',
+        redirectTo: 'header',
         pathMatch: 'full'
     },
     {
